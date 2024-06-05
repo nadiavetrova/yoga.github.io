@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$background_color: #535d67;\n$text_color: #e6e0d3;\n$font_family: 'Mariupol', Arial, sans-serif;\n\nbody {\n    background-color: $background_color; }\n"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,IAAI,CAAC;EACD,gBAAgB,EALD,OAAO;CAKgB"
+}
