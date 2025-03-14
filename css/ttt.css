@@ -1,0 +1,54 @@
+body {
+  background-color: azure;
+}
+
+.ticTacToeSection {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+.win,
+.ticTacToeTitle {
+  color: rgba(42, 89, 165, 0.905);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.buttonStartNewGame {
+  padding: 5px 20px;
+  background-color: rgba(0, 255, 255, 0.514);
+  border-radius: 5px;
+  border: 1.5px solid #000;
+  cursor: pointer;
+  color: rgba(42, 89, 165, 0.905);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#ticTacToeBox {
+  border: 2px solid #000;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 70px;
+  color: #fff;
+}
+
+#ticTacToeBox>div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+#ticTacToeBox>div:nth-child(2n) {
+  background-color: rgb(52, 110, 152);
+}
+
+#ticTacToeBox>div:hover {
+  filter: brightness(1.2);
+}
